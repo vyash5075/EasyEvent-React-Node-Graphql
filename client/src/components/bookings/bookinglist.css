@@ -1,0 +1,21 @@
+.bookings__list {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 40rem;
+    max-width: 90%;
+  }
+  
+  .bookings__item {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    border: 5px solid #814bad;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 12px;;
+    background: #CC95C0;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #7AA1D2, #DBD4B4, #CC95C0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+     
+  }
